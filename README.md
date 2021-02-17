@@ -39,14 +39,14 @@ hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
 
 ##### Arguments:
    - Required:
-   - --azure-account
-   - --azure-account-key
-   - --artifact-name
-   - --azure-artifact-validity-in-days
-   - --path
-   - --hawkbit-server
-   - --hawkbit-password
-   - --hawkbit-username
+      - --azure-account
+      - --azure-account-key
+      - --artifact-name
+      - --azure-artifact-validity-in-days
+      - --path
+      - --hawkbit-server
+      - --hawkbit-password
+      - --hawkbit-username
    - Optional:
-   - --description
-   - --version
+      - --description
+      - --version
