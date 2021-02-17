@@ -6,12 +6,12 @@ In order to achieve this, two tools have been developed, Pullify and the HawkBit
 
 Pullify is a tool that generates a pull.json and compressed (.xz) file for a given target file.
 
-##### Usage: 
+### Usage: 
 ```bash
 pullify.sh <file> <outdir> <description>
 ```
 
-##### Arguments:
+### Arguments:
    - file: File to compress and make pullable.
    - outdir: Subdir to store the results in (relative the to file).
    - description: Desctption to include the in the pull.json.
@@ -23,7 +23,7 @@ This tool needs azure-cli. [How to install](https://docs.microsoft.com/en-us/cli
 
 Or run it from the test-environment docker image in which it is pre-installed.
 
-##### Usage:
+### Usage:
 ```bash
 hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
                                --azure-account-key AZURE_ACCOUNT_KEY
@@ -37,7 +37,7 @@ hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
                                [--version VERSION]
 ```
 
-##### Arguments:
+### Arguments:
    - Required:
       - --azure-account
       - --azure-account-key
