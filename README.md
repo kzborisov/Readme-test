@@ -1,4 +1,5 @@
 The goal of the image uploader tool is to ... TODO
+
 In order to achieve this, two tools have been developed, the Pullify tool and the HawkBit Image Uploader further described below.
 
 ## Pullify
@@ -11,8 +12,9 @@ pullify.sh <file> <outdir> <description>
 ```
 
 3.Arguments:
-   file: File to compress and make pullable.
-   outdir: Subdir to store the results in (relative to file).
-   description: Desctption to include the in the pull.json.
+
+   - file: File to compress and make pullable.
+   - outdir: Subdir to store the results in (relative to file).
+   - description: Desctption to include the in the pull.json.
 
 ## HawkBit Image Uploader
