@@ -4,8 +4,8 @@ Usage:
 ```bash
 pullify.sh <file> <outdir> <description>
 ```
-⋅⋅⋅file: File to compress and make pullable.
-⋅⋅⋅outdir: Subdir to store the results in (relative to file).
-⋅⋅⋅description: Desctption to include the in the pull.json.
+   file: File to compress and make pullable.
+   outdir: Subdir to store the results in (relative to file).
+   description: Desctption to include the in the pull.json.
 
 # Hawkbit Image Uploader
