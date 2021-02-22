@@ -10,7 +10,7 @@ The pull.json file contains all the metadata for the *.xz file.
 ```bash
 pullify.sh <file> <outdir> <description>
 ```
-
+New file from newbranch
 ### Arguments:
    - file: File to compress and make pullable.
    - outdir: Subdir to store the results in (relative the to file).
