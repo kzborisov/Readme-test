@@ -1,6 +1,4 @@
-The goal of the image uploader tool is to upload the generated images to Azure Storage and make them available in hawkBit.
-
-In order to achieve this, two tools have been developed, Pullify and HawkBit Image Uploader.
+The goal of the image uploader tool is to upload the generated images to Azure Storage and make them available in hawkBit. In order to achieve this, two tools have been developed, Pullify and HawkBit Image Uploader.
 
 ## Pullify
 
@@ -19,6 +17,11 @@ pullify.sh <file> <outdir> <description>
    - description: Desctption to include the in the pull.json.
 
 ## HawkBit Image Uploader
+The generated images are uploaded to the Azure Storage and then hawkBit is modified to show that version by creating links.
+
+This process is handled by the HawkBit Image Uploader.
+
+
 HawkBit Image Uploader is a tool that uploads the generated images to Azure Storage and creates links in hawkBit.
 
 This tool needs azure-cli. [How to install](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
