@@ -17,16 +17,11 @@ pullify.sh <file> <outdir> <description>
    - description: Desctption to include the in the pull.json.
 
 ## HawkBit Image Uploader
-The generated images are uploaded to the Azure Storage and then hawkBit is modified to show that version by creating links.
 
-This process is handled by the HawkBit Image Uploader.
+The purpose of the HawkBit Image Uploader tool is to upload the generated images to Azure Storage and then modify hawkBit to show that version by creating links.
 
-
-HawkBit Image Uploader is a tool that uploads the generated images to Azure Storage and creates links in hawkBit.
-
-This tool needs azure-cli. [How to install](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
-
-Or run it from the test-environment docker image in which it is pre-installed.
+The tool needs azure-cli. [How to install](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest).
+It can be also run from the test-environment docker image in which it is pre-installed.
 
 ### Usage:
 
