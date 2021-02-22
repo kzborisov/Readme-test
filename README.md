@@ -4,7 +4,9 @@ In order to achieve this, two tools have been developed, Pullify and HawkBit Ima
 
 ## Pullify
 
-Pullify is a tool that generates a pull.json and compressed (.xz) file for a given target file.
+Pullify is a tool that generates a pull.json and compressed (*.xz) file for a given target file.
+
+The pull.json file contains all the metadata for the *.xz file.
 
 ### Usage: 
 ```bash
