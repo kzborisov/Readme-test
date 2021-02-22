@@ -55,3 +55,4 @@ All of the arguments will be provided by the Lely IT department.
       - --version      - branch name (by default).
 
 ## Mender Image Uploader - Deprecated.
+The mender storage is no longer in use.
