@@ -51,7 +51,7 @@ All of the arguments will be provided by the Lely IT department.
       - --hawkbit-password
       - --hawkbit-username
    - Optional:
-      - --description  - product name and the git hash.
+      - --description  - product name followed by the git hash.
       - --version      - branch name (by default).
 
 ## Mender Image Uploader - Deprecated.
