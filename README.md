@@ -1,6 +1,6 @@
 The goal of the image uploader tool is to upload the generated images to Azure Storage and make them available in hawkBit.
 
-In order to achieve this, two tools have been developed, Pullify and the HawkBit Image Uploader.
+In order to achieve this, two tools have been developed, Pullify and HawkBit Image Uploader.
 
 ## Pullify
 
@@ -24,6 +24,7 @@ This tool needs azure-cli. [How to install](https://docs.microsoft.com/en-us/cli
 Or run it from the test-environment docker image in which it is pre-installed.
 
 ### Usage:
+
 ```bash
 hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
                                --azure-account-key AZURE_ACCOUNT_KEY
@@ -38,6 +39,8 @@ hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
 ```
 
 ### Arguments:
+All of the arguments will be provided by the Lely IT department.
+
    - Required:
       - --azure-account
       - --azure-account-key
@@ -50,3 +53,5 @@ hawkbit_image_uploader.py [-h] --azure-account AZURE_ACCOUNT
    - Optional:
       - --description
       - --version
+
+## Mender Image Uploader - Deprecated.
